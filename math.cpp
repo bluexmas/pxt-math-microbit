@@ -8,7 +8,7 @@ namespace MATH {
   * button pushed.
   */
   //% blockId=math_sum
-  //% block="%src1 + %src2"
+  //% block="sum value|value1 %src1 + |value2 %src2"
   int sumValue(int src1, int src2) {
       return src1 + src2;
   }
