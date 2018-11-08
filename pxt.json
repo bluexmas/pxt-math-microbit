@@ -1,7 +1,7 @@
 {
-    "name": "ir",
+    "name": "math",
     "version": "0.0.1",
-    "description": "Tinkercademy package for ElecFreaks IR receiver module",
+    "description": "math function",
     "license": "MIT",
     "dependencies": {
         "core": "*"
