@@ -7,11 +7,11 @@
 declare namespace MATH {
 
     /**
-     * button pushed.
+     * math_sum_value.
      */
-    //% blockId=math_sum
-    //% block="sum value|value %value" shim=MATH::sumValue
-    function sumValue(value: int32): int32;
+    //% blockId=math_sum_value
+    //% block="pulse duration (µs)" shim=MATH::pulseDuration
+    function pulseDuration(): int32;
 }
 
 // Auto-generated. Do not edit. Really.
