@@ -1,5 +1,5 @@
 // Auto-generated. Do not edit.
-declare namespace input1 {
+declare namespace MATH {
 }
 
 // Auto-generated. Do not edit. Really.

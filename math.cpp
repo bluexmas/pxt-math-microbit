@@ -1,16 +1,16 @@
 #include "pxt.h"
 
-//% color=#D400D4 weight=111 icon="\uf192"
-namespace input1 {
+//% color=50 weight=80
+//% icon="\uf1eb"
+namespace MATH { 
 
-    /**
-     * Gets the temperature in Celsius degrees (°C).
-     */
-    //% weight=55
-    //% help=input/temperature
-    //% blockId=device_temperature block="temperature (°C)" blockGap=8
-    //% parts="thermometer"
-    int temperature() {
-        return uBit.thermometer.getTemperature();
-    }
+  /**
+  * math_sum_value.
+  */
+  //% blockId=math_sum_value
+  //% block="sum value (µs)"
+  int sumValue() {
+      //return src1 + src2;
+      return 1;
+  }
 }

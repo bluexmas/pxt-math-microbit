@@ -2,17 +2,18 @@
 
 
 
-    //% color=#D400D4 weight=111 icon="\uf192"
-namespace input1 {
+    //% color=50 weight=80
+    //% icon="\uf1eb"
+namespace MATH {
 
     /**
-     * Gets the temperature in Celsius degrees (°C).
+     * math_sum_value.
      */
-    //% weight=55
-    //% help=input/temperature
-    //% blockId=device_temperature block="temperature (°C)" blockGap=8
-    //% parts="thermometer" shim=input1::temperature
-    export function temperature(): int32;
+    //% blockId=math_sum_value
+    //% block="sum value (µs)" shim=MATH::sumValue
+    export function sumValue(): int32 {
+        return MATH.sumValue();
+    }
 }
 
 // Auto-generated. Do not edit. Really.
