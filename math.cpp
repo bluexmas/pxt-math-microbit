@@ -5,11 +5,11 @@
 namespace MATH { 
 
   /**
-  * math_sum.
+  * button pushed.
   */
   //% blockId=math_sum
-  //% block="%value1 + %value2"
-  int sum(int value1, int value2) {
-      return value1 + value2;
+  //% block="%src1 + %src2"
+  int sum(int src1, int src2) {
+      return src1 + src2;
   }
 }
