@@ -1,8 +1,7 @@
 #include "pxt.h"
 
-//% color=50 weight=80
-//% icon="\uf1eb"
-namespace MATH { 
+//% color=#D400D4 weight=111 icon="\uf192"
+namespace input1 {
 
     /**
      * Gets the temperature in Celsius degrees (°C).
