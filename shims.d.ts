@@ -11,7 +11,7 @@ declare namespace MATH {
      */
     //% blockId=math_sum_value
     //% block="pulse duration (µs)" shim=MATH::pulseDuration
-    function pulseDuration(): int32;
+    export function pulseDuration(): int32;
 }
 
 // Auto-generated. Do not edit. Really.
