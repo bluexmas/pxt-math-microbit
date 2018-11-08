@@ -3,13 +3,12 @@
 //% color=50 weight=80
 //% icon="\uf1eb"
 namespace MATH { 
-
   /**
   * button pushed.
   */
   //% blockId=math_sum
-  //% block="= %src1 + %src2"
-  int sum(int src1, int src2) {
-      return src1 + src2;
+  //% block="sum value = %s1 + %s2"
+  int sumValue(int s1, int s2) {
+      return s1 + s2;
   }
 }
