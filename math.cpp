@@ -4,13 +4,14 @@
 //% icon="\uf1eb"
 namespace MATH { 
 
-  /**
-  * math_sum_value.
-  */
-  //% blockId=math_sum_value
-  //% block="pulse duration (µs)"
-  int pulseDuration() {
-      //return src1 + src2;
-      return 1;
-  }
+    /**
+     * Gets the temperature in Celsius degrees (°C).
+     */
+    //% weight=55
+    //% help=input/temperature
+    //% blockId=device_temperature block="temperature (°C)" blockGap=8
+    //% parts="thermometer"
+    int temperature() {
+        return uBit.thermometer.getTemperature();
+    }
 }

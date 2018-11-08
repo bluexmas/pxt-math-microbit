@@ -5,12 +5,15 @@
     //% color=50 weight=80
     //% icon="\uf1eb"
 declare namespace MATH {
+
     /**
-     * math_sum_value.
+     * Gets the temperature in Celsius degrees (°C).
      */
-    //% blockId=math_sum_value
-    //% block="pulse duration (µs)" shim=MATH::pulseDuration
-    export function pulseDuration(): int32;
+    //% weight=55
+    //% help=input/temperature
+    //% blockId=device_temperature block="temperature (°C)" blockGap=8
+    //% parts="thermometer" shim=MATH::temperature
+    function temperature(): int32;
 }
 
 // Auto-generated. Do not edit. Really.
