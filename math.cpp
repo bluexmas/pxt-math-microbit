@@ -5,10 +5,10 @@
 namespace MATH { 
 
   /**
-  * math_sum_value.
+  * math_sum.
   */
-  //% blockId=math_sum_value
-  int sumValue(int s1, int s2) {
-      return s1 + s2;
+  //% blockId=math_sum
+  int sum(int value1, int value2) {
+      return value1 + value2;
   }
 }
