@@ -5,7 +5,6 @@
     //% color=50 weight=80
     //% icon="\uf1eb"
 declare namespace MATH {
-
     /**
      * math_sum_value.
      */
