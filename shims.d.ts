@@ -10,10 +10,8 @@ declare namespace MATH {
      * math_sum_value.
      */
     //% blockId=math_sum_value
-    //% block="sum value (µs)" shim=MATH::sumValue
-    export function sumValue(): int32 {
-        return MATH.sumValue();
-    }
+    //% block="pulse duration2 (µs)" shim=MATH::pulseDuration2
+    function pulseDuration2(): int32;
 }
 
 // Auto-generated. Do not edit. Really.

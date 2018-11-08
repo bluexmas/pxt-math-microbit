@@ -8,8 +8,8 @@ namespace MATH {
   * math_sum_value.
   */
   //% blockId=math_sum_value
-  //% block="sum value (µs)"
-  int sumValue() {
+  //% block="pulse duration2 (µs)"
+  int pulseDuration2() {
       //return src1 + src2;
       return 1;
   }
