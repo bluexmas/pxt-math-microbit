@@ -7,10 +7,9 @@
 declare namespace MATH {
 
     /**
-     * button pushed.
+     * math_sum_value.
      */
-    //% blockId=math_sum
-    //% block="sum value = %s1 + %s2" shim=MATH::sumValue
+    //% blockId=math_sum_value shim=MATH::sumValue
     function sumValue(s1: int32, s2: int32): int32;
 }
 

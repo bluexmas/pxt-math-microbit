@@ -3,11 +3,11 @@
 //% color=50 weight=80
 //% icon="\uf1eb"
 namespace MATH { 
+
   /**
-  * button pushed.
+  * math_sum_value.
   */
-  //% blockId=math_sum
-  //% block="sum value = %s1 + %s2"
+  //% blockId=math_sum_value
   int sumValue(int s1, int s2) {
       return s1 + s2;
   }
