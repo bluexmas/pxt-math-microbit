@@ -4,14 +4,16 @@
 
     //% color=50 weight=80
     //% icon="\uf1eb"
-declare namespace MATH {
+namespace MATH {
 
     /**
      * math_sum_value.
      */
     //% blockId=math_sum
     //% block="sum" shim=MATH::sum
-    function sum(): int32;
+    export function sum(): number {
+        return;
+    }
 }
 
 // Auto-generated. Do not edit. Really.
