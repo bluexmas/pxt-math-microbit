@@ -5,7 +5,7 @@
 namespace MATH2 { 
 
 	//%
-	int sum(){
+	int __sum() {
 		return 1;
 	}
 }
