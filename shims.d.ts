@@ -12,7 +12,7 @@ namespace MATH {
     //% blockId=math_sum
     //% block="sum" shim=MATH::sum
     export function sum(): number {
-        return;
+        return 0;
     }
 }
 
