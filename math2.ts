@@ -4,7 +4,7 @@
 
     //% color=50 weight=80
     //% icon="\uf1eb"
-declare namespace MATH2 {
+namespace MATH2 {
 
 
 	/**
