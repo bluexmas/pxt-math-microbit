@@ -7,8 +7,8 @@
         "core": "*"
     },
     "files": [
-        "shims.d.ts",
         "enums.d.ts",
+        "math.ts",
         "math.cpp"
     ],
     "public": true
