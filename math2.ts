@@ -14,7 +14,7 @@ namespace MATH2 {
 	//% blockId=math2_sum shim=MATH2::sum
 	export function sum() : number {
 		//shim
-		return 0;
+		return MATH2.sum();
 	}
 
 }
