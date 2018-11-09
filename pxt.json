@@ -1,5 +1,5 @@
 {
-    "name": "math",
+    "name": "math2",
     "version": "0.0.1",
     "description": "math function",
     "license": "MIT",
@@ -7,9 +7,9 @@
         "core": "*"
     },
     "files": [
-        "enums.d.ts",
-        "math.ts",
-        "math.cpp"
+        "math2.cpp",
+        "math2.ts",
+        "enums.d.ts"
     ],
     "public": true
 }
