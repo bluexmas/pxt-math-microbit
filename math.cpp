@@ -5,11 +5,11 @@
 namespace MATH { 
 
   /**
-  * math_sum_value.
+  * math_sum.
   */
-  //% blockId=math_sum_value
-  //% block="pulse duration2 (µs)"
-  int pulseDuration2() {
+  //% blockId=math_sum
+  //% block="sum"
+  int sum() {
       //return src1 + src2;
       return 1;
   }
