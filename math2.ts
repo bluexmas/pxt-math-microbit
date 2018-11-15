@@ -15,7 +15,7 @@ namespace MATH2 {
 	export function sum() : number {
 		//shim
 		//return MATH2.__sum();
-		return 0;
+		return 3;
 	}
 
 }
