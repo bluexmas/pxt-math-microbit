@@ -1,15 +1,14 @@
 #include "pxt.h"
 
-//% color=50 weight=80
-//% icon="\uf1eb"
+//% weight=1 color="#333333"
+//% advanced=true
 namespace MATH2 { 
 
 	/**
-	* Returns the distance detected by the rangefinder (in mm).
-	**/
-	//% block="sum"
-	//% blockId=math2_sum
-	int sum(){
+    *
+    */
+    //%
+	int __sum() {
 		return 1;
 	}
 }

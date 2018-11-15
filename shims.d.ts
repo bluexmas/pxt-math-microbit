@@ -2,16 +2,15 @@
 
 
 
-    //% color=50 weight=80
-    //% icon="\uf1eb"
+    //% weight=1 color="#333333"
+    //% advanced=true
 declare namespace MATH2 {
 
     /**
-     * Returns the distance detected by the rangefinder (in mm).
-     **/
-    //% block="sum"
-    //% blockId=math2_sum shim=MATH2::sum
-    function sum(): int32;
+     *
+     */
+    //% shim=MATH2::__sum
+    function __sum(): int32;
 }
 
 // Auto-generated. Do not edit. Really.

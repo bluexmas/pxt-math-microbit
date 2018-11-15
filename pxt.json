@@ -8,6 +8,7 @@
     },
     "files": [
         "math2.cpp",
+        "math2.ts",
         "shims.d.ts",
         "enums.d.ts"
     ],
