@@ -10,7 +10,7 @@ namespace MATH2 {
 	/**
 	* Returns the distance detected by the rangefinder (in mm).
 	**/
-	//% block="sum"
+	//% block="sum2"
 	//% blockId=math2_sum 
 	export function sum() : number {
 		//shim
