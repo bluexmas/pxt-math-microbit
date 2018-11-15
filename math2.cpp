@@ -1,11 +1,11 @@
 #include "pxt.h"
 
-//% color=50 weight=80
-//% icon="\uf1eb"
+//% weight=1 color="#333333"
+//% advanced=true
 namespace MATH2 { 
 
 	//%
-	int __sum() {
+	int sum(){
 		return 1;
 	}
 }
