@@ -12,7 +12,6 @@ namespace MATH2 {
 	**/
 	//% block="sum"
 	//% blockId=math2_sum 
-	//% shim=TD_ID advanced=true
 	export function sum() : number {
 		//shim
 		return MATH2.__sum();
