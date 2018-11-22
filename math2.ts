@@ -1,22 +1,15 @@
-// Auto-generated. Do not edit.
-
-
-
-    //% color=50 weight=80
-    //% icon="\uf1eb"
+//% color=50 weight=80
+//% icon="\uf1eb"
 namespace MATH2 {
-
 
 	/**
 	* Returns the distance detected by the rangefinder (in mm).
 	**/
-	//% block="sum2"
-	//% blockId=math2_sum 
-	export function sum() : number {
+	//% block="distance (in mm)"
+	//% blockId=ranger_dist_mm shim=MATH2::distance
+	export function distance() : number {
 		//shim
-		return MATH2.__sum();
+		return 0;
 	}
 
 }
-
-// Auto-generated. Do not edit. Really.

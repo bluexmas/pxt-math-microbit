@@ -7,10 +7,9 @@
         "core": "*"
     },
     "files": [
-        "math2.cpp",
         "math2.ts",
-        "shims.d.ts",
-        "enums.d.ts"
+        "enums.d.ts",
+        "math2.cpp"
     ],
-    "public": true
+    "public": false
 }
